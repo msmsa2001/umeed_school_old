@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ummeed Rehab Centre - Ummeed The Hope Special School</title>
+  <meta name="description" content="A specialized facility for intensive and holistic rehabilitation for children with special needs." />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+
+  <!-- Custom Styles -->
+  <link href="css/home-bootstrap.css" rel="stylesheet" />
+  
+  <style>
+    .page-header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600&auto=format&fit=crop') center/cover no-repeat;
+      padding: 180px 0 120px;
+      text-align: center;
+      color: white;
+    }
+    .page-header-title {
+      font-family: var(--font-heading);
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .page-header-lead {
+      font-family: var(--font-body);
+      font-size: 1.25rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .rehab-intro-box {
+      background: white;
+      padding: 50px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      margin-top: -60px;
+      position: relative;
+      z-index: 10;
+      text-align: center;
+    }
+    .rehab-card {
+      background: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      border-left: 5px solid var(--charcoal);
+      height: 100%;
+      transition: transform 0.3s ease;
+    }
+    .rehab-card:hover {
+      transform: translateY(-5px);
+    }
+    .rehab-card h3 {
+      font-family: var(--font-heading);
+      color: var(--charcoal);
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+    .rehab-card h3 i {
+      color: var(--green-hope);
+    }
+    .rehab-list {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .rehab-list li {
+      margin-bottom: 12px;
+      position: relative;
+      padding-left: 25px;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+    }
+    .rehab-list li::before {
+      content: '\F633';
+      font-family: 'bootstrap-icons';
+      position: absolute;
+      left: 0;
+      color: var(--green-hope);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/Ummeed The Hope Special School For Hearing Impaired.png" alt="Ummeed Foundation Logo" class="brand-logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <i class="bi bi-list" style="font-size:1.5rem;color:var(--charcoal)"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto align-items-lg-center" id="main-nav-list">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+              <li><a class="dropdown-item" href="about.html">Who We Are</a></li>
+              <li><a class="dropdown-item" href="impact.html">Our Impact</a></li>
+              <li><a class="dropdown-item" href="csr.html">Partners & CSR</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="workDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Work</a>
+            <ul class="dropdown-menu" aria-labelledby="workDropdown">
+              <li><a class="dropdown-item" href="services.html">Core Services</a></li>
+              <li><a class="dropdown-item" href="programs.html">Programs & Training</a></li>
+              <li><a class="dropdown-item" href="rehab-centre.html">Rehab Centre</a></li>
+              <li><a class="dropdown-item" href="community.html">Community Outreach</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="involvedDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Get Involved</a>
+            <ul class="dropdown-menu" aria-labelledby="involvedDropdown">
+              <li><a class="dropdown-item" href="admission.html">Admissions</a></li>
+              <li><a class="dropdown-item" href="get-involved.html">Volunteer & Intern</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link nav-cta" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════ PAGE HEADER ══════════ -->
+  <header class="page-header">
+    <div class="container reveal">
+      <div class="breadcrumb-pill">
+        <a href="index.html">Home</a>
+        <i class="bi bi-chevron-right"></i>
+        <span>Rehab Centre</span>
+      </div>
+      <h1 class="page-header-title">
+        <span class="title-part-1">Ummeed</span>
+        <span class="title-part-2">Rehab Centre</span>
+      </h1>
+      <p class="page-header-lead">A specialized facility for intensive and holistic rehabilitation.</p>
+    </div>
+  </header>
+
+  <!-- ══════════ REHAB CONTENT ══════════ -->
+  <section class="pb-5 mb-5 bg-light">
+    <div class="container">
+      
+      <!-- Intro Box -->
+      <div class="row justify-content-center mb-5 reveal">
+        <div class="col-lg-10">
+          <div class="rehab-intro-box">
+            <h2 class="section-title mb-4">Late Mrs. S.K. Parvez Free Rehab Centre</h2>
+            <p class="text-muted fs-5 mb-5">The Late Mrs. S.K. Parvez Free Rehab Centre is a cornerstone of our community support. While special education builds cognitive foundations, deep physical and sensory interventions often require a dedicated, clinical environment. The Ummeed Rehab Centre was established to offer intensive, goal-oriented therapies. It bridges the gap between educational learning and everyday functional independence, making sure therapies are consistent, monitored, and highly personalized for complex cases.</p>
+            
+            <h3 class="mb-4" style="color: var(--charcoal); font-family: var(--font-heading);">Impact Statistics</h3>
+            <div class="row text-center g-4">
+              <div class="col-md-4 col-sm-6">
+                <h2 style="color: var(--green-hope); font-weight: 800;">50</h2>
+                <p class="text-muted fw-bold">Senior Citizens Assisted</p>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <h2 style="color: var(--green-hope); font-weight: 800;">75</h2>
+                <p class="text-muted fw-bold">Students Supported</p>
+              </div>
+              <div class="col-md-4 col-sm-6">
+                <h2 style="color: var(--green-hope); font-weight: 800;">97</h2>
+                <p class="text-muted fw-bold">Women Empowered</p>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <h2 style="color: var(--green-hope); font-weight: 800;">15</h2>
+                <p class="text-muted fw-bold">Stroke Patients Rehabilitated</p>
+              </div>
+              <div class="col-md-6 col-sm-6">
+                <h2 style="color: var(--green-hope); font-weight: 800;">35</h2>
+                <p class="text-muted fw-bold">Accident Recovery Cases</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Feature Grid -->
+      <div class="row g-4 mb-5">
+        <div class="col-md-6 reveal">
+          <div class="rehab-card">
+            <h3><i class="fas fa-calendar-check"></i> Weekly Therapy Services</h3>
+            <p class="text-muted mb-4">We offer structured weekly sessions tailored to your child's rigorous therapy plan.</p>
+            <ul class="rehab-list">
+              <li>Intensive Neuro-Developmental Therapy</li>
+              <li>Sensory Integration Therapy</li>
+              <li>Advanced Speech and Language Correction</li>
+              <li>Fine Motor Coordination Drills</li>
+              <li>Behavior Modification Counseling</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 reveal">
+          <div class="rehab-card">
+            <h3><i class="fas fa-clinic-medical"></i> Facility Highlights</h3>
+            <p class="text-muted mb-4">Our center is equipped with state-of-the-art tools to ensure effective treatment.</p>
+            <ul class="rehab-list">
+              <li>Dedicated Sensory Rooms</li>
+              <li>Equipped Physiotherapy Gym</li>
+              <li>Quiet Counseling Cabins</li>
+              <li>Specialized Assessment Tools</li>
+              <li>Trained Clinical Psychologists</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center reveal">
+        <a href="contact.html" class="btn-hero-primary">Book an Assessment Appointment <i class="bi bi-arrow-right ms-2"></i></a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Brand -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-brand">Ummeed The Hope<br/>Special School</div>
+            <p class="footer-tagline">A beacon of hope for children with special needs since 2011. An initiative of the Ummeed Foundation.</p>
+            <div class="social-icons mt-3">
+              <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <div class="footer-title">Quick Links</div>
+            <ul class="footer-links">
+              <li><a href="about.html"><i class="bi bi-chevron-right"></i>About Us</a></li>
+              <li><a href="services.html"><i class="bi bi-chevron-right"></i>Our Services</a></li>
+              <li><a href="programs.html"><i class="bi bi-chevron-right"></i>Programs</a></li>
+              <li><a href="community.html"><i class="bi bi-chevron-right"></i>Community</a></li>
+              <li><a href="rehab-centre.html"><i class="bi bi-chevron-right"></i>Rehab Centre</a></li>
+            </ul>
+          </div>
+          <!-- More Links -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <div class="footer-title">Get Involved</div>
+            <ul class="footer-links">
+              <li><a href="impact.html"><i class="bi bi-chevron-right"></i>Our Impact</a></li>
+              <li><a href="admission.html"><i class="bi bi-chevron-right"></i>Admission</a></li>
+              <li><a href="get-involved.html"><i class="bi bi-chevron-right"></i>Volunteer</a></li>
+              <li><a href="get-involved.html"><i class="bi bi-chevron-right"></i>Donate</a></li>
+              <li><a href="csr.html"><i class="bi bi-chevron-right"></i>CSR Partners</a></li>
+            </ul>
+          </div>
+          <!-- Contact -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-title">Contact Us</div>
+            <div class="footer-contact-item">
+              <i class="bi bi-geo-alt-fill"></i>
+              <span>Ummeed The Hope Special School,<br/>Mumbra, Thane,<br/>Maharashtra, India</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="bi bi-telephone-fill"></i>
+              <span>+91 XXXXX XXXXX</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="bi bi-envelope-fill"></i>
+              <span>ummeedschool@theummeedfoundation.org</span>
+            </div>
+          </div>
+          <!-- SDGs -->
+          <div class="col-lg-2 col-md-6">
+            <div class="footer-title">UN SDGs We Support</div>
+            <div style="display:flex;flex-direction:column;gap:.6rem">
+              <div style="display:flex;align-items:center;gap:8px;font-size:.82rem;color:rgba(255,255,255,.6)">
+                <span style="background:#e5243b;color:white;border-radius:6px;padding:2px 7px;font-weight:800;font-size:.72rem">SDG&nbsp;3</span>
+                Good Health
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;font-size:.82rem;color:rgba(255,255,255,.6)">
+                <span style="background:#c5192d;color:white;border-radius:6px;padding:2px 7px;font-weight:800;font-size:.72rem">SDG&nbsp;4</span>
+                Quality Education
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;font-size:.82rem;color:rgba(255,255,255,.6)">
+                <span style="background:#dd1367;color:white;border-radius:6px;padding:2px 7px;font-weight:800;font-size:.72rem">SDG&nbsp;10</span>
+                Reduced Inequalities
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <p>© 2024 Ummeed The Hope Special School. An initiative of the Ummeed Foundation.</p>
+        <p>Designed with ❤️ for the children of Mumbra</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="backToTop" aria-label="Back to Top"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/home-bootstrap.js"></script>
+  <script>
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        document.getElementById('mainNav').classList.add('scrolled');
+      } else {
+        document.getElementById('mainNav').classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>

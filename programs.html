@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programs & Training - Ummeed The Hope Special School</title>
+  <meta name="description" content="Empowering children, equipping parents, and educating teachers through specialized programs at Ummeed." />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Google Fonts -->
+
+  <!-- Custom Styles -->
+  <link href="css/home-bootstrap.css" rel="stylesheet" />
+  
+  <style>
+    .page-header {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1600&auto=format&fit=crop') center/cover no-repeat;
+      padding: 180px 0 120px;
+      text-align: center;
+      color: white;
+    }
+    .page-header-title {
+      font-family: var(--font-heading);
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+    .page-header-lead {
+      font-family: var(--font-body);
+      font-size: 1.25rem;
+      opacity: 0.9;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .program-card {
+      background: white;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+      border: 1px solid rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+    .program-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+    }
+    .program-img {
+      height: 220px;
+      background: var(--light-bg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--charcoal);
+      border-bottom: 4px solid var(--green-hope);
+    }
+    .program-img i {
+      font-size: 5rem;
+      opacity: 0.5;
+    }
+    .program-content {
+      padding: 30px;
+    }
+    .program-content h3 {
+      font-family: var(--font-heading);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ══════════ NAVBAR ══════════ -->
+  <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/Ummeed The Hope Special School For Hearing Impaired.png" alt="Ummeed Foundation Logo" class="brand-logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <i class="bi bi-list" style="font-size:1.5rem;color:var(--charcoal)"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto align-items-lg-center" id="main-nav-list">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="aboutDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">About Us</a>
+            <ul class="dropdown-menu" aria-labelledby="aboutDropdown">
+              <li><a class="dropdown-item" href="about.html">Who We Are</a></li>
+              <li><a class="dropdown-item" href="impact.html">Our Impact</a></li>
+              <li><a class="dropdown-item" href="csr.html">Partners & CSR</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="workDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Work</a>
+            <ul class="dropdown-menu" aria-labelledby="workDropdown">
+              <li><a class="dropdown-item" href="services.html">Core Services</a></li>
+              <li><a class="dropdown-item" href="programs.html">Programs & Training</a></li>
+              <li><a class="dropdown-item" href="rehab-centre.html">Rehab Centre</a></li>
+              <li><a class="dropdown-item" href="community.html">Community Outreach</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="involvedDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Get Involved</a>
+            <ul class="dropdown-menu" aria-labelledby="involvedDropdown">
+              <li><a class="dropdown-item" href="admission.html">Admissions</a></li>
+              <li><a class="dropdown-item" href="get-involved.html">Volunteer & Intern</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link nav-cta" href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ══════════ PAGE HEADER ══════════ -->
+  <header class="page-header">
+    <div class="container reveal">
+      <div class="breadcrumb-pill">
+        <a href="index.html">Home</a>
+        <i class="bi bi-chevron-right"></i>
+        <span>Programs</span>
+      </div>
+      <h1 class="page-header-title">
+        <span class="title-part-1">Specialized</span>
+        <span class="title-part-2">Programs</span>
+      </h1>
+      <p class="page-header-lead">Empowering children, equipping parents, and educating teachers.</p>
+    </div>
+  </header>
+
+  <!-- ══════════ PROGRAMS ══════════ -->
+  <section class="py-5 mb-5">
+    <div class="container py-4">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center reveal">
+          <p class="fs-5 text-muted">We believe that education extends beyond the classroom. Our Programs & Training focus on holistic development, equipping children with skills and knowledge to thrive in their personal and academic lives.</p>
+        </div>
+      </div>
+
+      <div class="row g-5 justify-content-center">
+        <!-- Programs for Children -->
+        <div class="col-12 reveal">
+          <h3 class="mb-4 text-center" style="font-family: var(--font-heading); color: var(--charcoal);">Programs for Children</h3>
+          <div class="row g-4">
+            <div class="col-md-6">
+              <div class="program-card">
+                <div class="program-img text-center p-4" style="height: auto; border-bottom: 4px solid var(--green-hope);">
+                  <i class="fas fa-hands-helping mt-3" style="font-size: 3rem;"></i>
+                  <h4 class="mt-3" style="color: var(--charcoal); font-family: var(--font-heading);">Life Skills Training</h4>
+                </div>
+                <div class="program-content">
+                  <p class="text-muted"><strong style="color: var(--primary-red);">Description:</strong> Practical skills training that covers essential life skills such as personal hygiene, money management, and basic cooking. This program aims to foster independence and self-reliance among students.</p>
+                  <p class="text-muted mb-0"><strong style="color: var(--primary-red);">Features:</strong> Hands-on activities, real-life scenarios, skill assessments.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="program-card">
+                <div class="program-img text-center p-4" style="height: auto; border-bottom: 4px solid var(--green-hope);">
+                  <i class="fas fa-users mt-3" style="font-size: 3rem;"></i>
+                  <h4 class="mt-3" style="color: var(--charcoal); font-family: var(--font-heading);">Social Skills Development</h4>
+                </div>
+                <div class="program-content">
+                  <p class="text-muted"><strong style="color: var(--primary-red);">Description:</strong> Activities and workshops designed to improve social interactions, communication, and relationship-building skills. This program helps students develop confidence and navigate social situations effectively.</p>
+                  <p class="text-muted mb-0"><strong style="color: var(--primary-red);">Features:</strong> Role-playing, group activities, social interaction exercises.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 mt-5">
+          <div class="divider mx-auto mb-5"></div>
+        </div>
+
+        <!-- Parent Workshops -->
+        <div class="col-lg-6 reveal">
+          <div class="program-card h-100">
+            <div class="program-img text-center p-4" style="height: auto; background-color: var(--primary-red); color: white; border-bottom: 4px solid var(--charcoal);">
+              <i class="fas fa-user-friends mt-3" style="color: rgba(255,255,255,0.8); font-size: 3rem;"></i>
+              <h3 class="mt-3 text-white" style="font-family: var(--font-heading);">Parent Workshops</h3>
+            </div>
+            <div class="program-content">
+              <ul class="list-unstyled mb-0">
+                <li class="mb-3 text-muted"><strong style="color: var(--primary-red);">Description:</strong> Educational workshops for parents to enhance their understanding of their child’s needs and how to support their development effectively. Topics include behavior management, educational strategies, and emotional support.</li>
+                <li class="text-muted"><strong style="color: var(--primary-red);">Features:</strong> Expert-led sessions, interactive discussions, practical advice.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Teacher Training Programs -->
+        <div class="col-lg-6 reveal">
+          <div class="program-card h-100">
+            <div class="program-img text-center p-4" style="height: auto; background-color: var(--green-hope); color: white; border-bottom: 4px solid #34d399;">
+              <i class="fas fa-chalkboard-teacher mt-3" style="color: rgba(255,255,255,0.8); font-size: 3rem;"></i>
+              <h3 class="mt-3 text-white" style="font-family: var(--font-heading);">Teacher Training Programs</h3>
+            </div>
+            <div class="program-content">
+              <ul class="list-unstyled mb-0">
+                <li class="mb-3 text-muted"><strong style="color: var(--primary-red);">Description:</strong> Specialized training for teachers to equip them with the latest techniques and strategies for teaching children with special needs. This includes training on inclusive education practices, behavioral management, and innovative teaching methods.</li>
+                <li class="text-muted"><strong style="color: var(--primary-red);">Features:</strong> Workshops, hands-on practice, ongoing professional development.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════ FOOTER ══════════ -->
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-4">
+          <!-- Brand -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-brand">Ummeed The Hope<br/>Special School</div>
+            <p class="footer-tagline">A beacon of hope for children with special needs since 2011. An initiative of the Ummeed Foundation.</p>
+            <div class="social-icons mt-3">
+              <a href="#" class="social-icon"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <!-- Quick Links -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <div class="footer-title">Quick Links</div>
+            <ul class="footer-links">
+              <li><a href="about.html"><i class="bi bi-chevron-right"></i>About Us</a></li>
+              <li><a href="services.html"><i class="bi bi-chevron-right"></i>Our Services</a></li>
+              <li><a href="programs.html"><i class="bi bi-chevron-right"></i>Programs</a></li>
+              <li><a href="community.html"><i class="bi bi-chevron-right"></i>Community</a></li>
+              <li><a href="rehab-centre.html"><i class="bi bi-chevron-right"></i>Rehab Centre</a></li>
+            </ul>
+          </div>
+          <!-- More Links -->
+          <div class="col-lg-2 col-md-6 col-6">
+            <div class="footer-title">Get Involved</div>
+            <ul class="footer-links">
+              <li><a href="impact.html"><i class="bi bi-chevron-right"></i>Our Impact</a></li>
+              <li><a href="admission.html"><i class="bi bi-chevron-right"></i>Admission</a></li>
+              <li><a href="get-involved.html"><i class="bi bi-chevron-right"></i>Volunteer</a></li>
+              <li><a href="get-involved.html"><i class="bi bi-chevron-right"></i>Donate</a></li>
+              <li><a href="csr.html"><i class="bi bi-chevron-right"></i>CSR Partners</a></li>
+            </ul>
+          </div>
+          <!-- Contact -->
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-title">Contact Us</div>
+            <div class="footer-contact-item">
+              <i class="bi bi-geo-alt-fill"></i>
+              <span>Ummeed The Hope Special School,<br/>Mumbra, Thane,<br/>Maharashtra, India</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="bi bi-telephone-fill"></i>
+              <span>+91 XXXXX XXXXX</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="bi bi-envelope-fill"></i>
+              <span>ummeedschool@theummeedfoundation.org</span>
+            </div>
+          </div>
+          <!-- SDGs -->
+          <div class="col-lg-2 col-md-6">
+            <div class="footer-title">UN SDGs We Support</div>
+            <div style="display:flex;flex-direction:column;gap:.6rem">
+              <div style="display:flex;align-items:center;gap:8px;font-size:.82rem;color:rgba(255,255,255,.6)">
+                <span style="background:#e5243b;color:white;border-radius:6px;padding:2px 7px;font-weight:800;font-size:.72rem">SDG&nbsp;3</span>
+                Good Health
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;font-size:.82rem;color:rgba(255,255,255,.6)">
+                <span style="background:#c5192d;color:white;border-radius:6px;padding:2px 7px;font-weight:800;font-size:.72rem">SDG&nbsp;4</span>
+                Quality Education
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;font-size:.82rem;color:rgba(255,255,255,.6)">
+                <span style="background:#dd1367;color:white;border-radius:6px;padding:2px 7px;font-weight:800;font-size:.72rem">SDG&nbsp;10</span>
+                Reduced Inequalities
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+        <p>© 2024 Ummeed The Hope Special School. An initiative of the Ummeed Foundation.</p>
+        <p>Designed with ❤️ for the children of Mumbra</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="backToTop" aria-label="Back to Top"><i class="bi bi-arrow-up"></i></button>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="js/home-bootstrap.js"></script>
+  <script>
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 50) {
+        document.getElementById('mainNav').classList.add('scrolled');
+      } else {
+        document.getElementById('mainNav').classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
